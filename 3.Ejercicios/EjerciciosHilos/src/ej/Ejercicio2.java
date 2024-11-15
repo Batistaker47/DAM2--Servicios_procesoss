@@ -25,8 +25,6 @@ public class Ejercicio2 implements Runnable {
 	public static void main(String[] args) {
 		// Instanciar la clase
 		Ejercicio ej1 = new Ejercicio();
-		Ejercicio2 ej2 = new Ejercicio2();
 		ej1.run();
-		ej2.run();
 	}
 }

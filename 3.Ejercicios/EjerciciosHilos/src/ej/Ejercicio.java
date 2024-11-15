@@ -13,11 +13,11 @@ public class Ejercicio implements Runnable {
 		while (count < 10) {
 			Thread t = new Thread();
 			count++;
-			System.out.println("Hilo actual: " + count);
-			System.out.println("Id del hilo: " + t.getId());
-			System.out.println("Nombre del hilo: " + t.getName());
-			System.out.println("Estado del hilo: " + t.getState());
-			System.out.println("-------------------------");
+			System.err.println("Hilo actual: " + count);
+			System.err.println("Id del hilo: " + t.getId());
+			System.err.println("Nombre del hilo: " + t.getName());
+			System.err.println("Estado del hilo: " + t.getState());
+			System.err.println("-------------------------");
 			
 			try {
 				Thread.sleep(1000);
